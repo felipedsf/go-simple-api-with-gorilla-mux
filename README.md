@@ -1,4 +1,4 @@
-# Project: CRM Backend
+# Project: Simple API
 *Simple Go project with GorillaMux as a router.*
 
 ---
