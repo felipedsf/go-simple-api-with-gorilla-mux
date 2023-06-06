@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "82fc617f-48a1-449f-93f8-3137888d2c39",
+		"name": "go-crm-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "303451"
+	},
+	"item": [
+		{
+			"name": "Getting all customers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\t\"name\": \"Example Name 1\",\n\t\t\t\"role\": \"Example Role\",\n\t\t\t\"email\": \"Example Email\",\n\t\t\t\"phone\": 5550199,\n\t\t\t\"contacted\": true\n\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting a single customer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\t\"name\": \"Example Name 1\",\n\t\t\t\"role\": \"Example Role\",\n\t\t\t\"email\": \"Example Email\",\n\t\t\t\"phone\": 5550199,\n\t\t\t\"contacted\": true\n\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\t\"name\": \"Example Name\",\n\t\t\t\"role\": \"Example Role\",\n\t\t\t\"email\": \"Example Email\",\n\t\t\t\"phone\": 5550199,\n\t\t\t\"contacted\": true\n\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updating a customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\t\"name\": \"PUT Example Name\",\n\t\t\t\"role\": \"Example Role\",\n\t\t\t\"email\": \"PUT Example Email\",\n\t\t\t\"phone\": 5550199,\n\t\t\t\"contacted\": true\n\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleting a customer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\t\"name\": \"Example Name 1\",\n\t\t\t\"role\": \"Example Role\",\n\t\t\t\"email\": \"Example Email\",\n\t\t\t\"phone\": 5550199,\n\t\t\t\"contacted\": true\n\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
